@@ -1235,16 +1235,7 @@
     width: auto;
     height: auto;
   }
-  
-  input:-moz-placeholder,
-  textarea:-moz-placeholder {
-    color: #999999;
-  }
-  
-  input:-ms-input-placeholder,
-  textarea:-ms-input-placeholder {
-    color: #999999;
-  }
+    
   
   input::-webkit-input-placeholder,
   textarea::-webkit-input-placeholder {
@@ -1610,21 +1601,6 @@
     border-color: #3a87ad;
   }
   
-  input:focus:invalid,
-  textarea:focus:invalid,
-  select:focus:invalid {
-    color: #b94a48;
-    border-color: #ee5f5b;
-  }
-  
-  input:focus:invalid:focus,
-  textarea:focus:invalid:focus,
-  select:focus:invalid:focus {
-    border-color: #e9322d;
-    -webkit-box-shadow: 0 0 6px #f8b9b7;
-       -moz-box-shadow: 0 0 6px #f8b9b7;
-            box-shadow: 0 0 6px #f8b9b7;
-  }
   
   .form-actions {
     padding: 19px 20px 20px;
