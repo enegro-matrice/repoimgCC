@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" type="text/css"
-        href="https://raw.githubusercontent.com/maximilianoPizarro/sugpa/master/WebContent/bastrap3/bastrap.css" />
+        href="https://raw.githubusercontent.com/enegro-matrice/repoimgCC/master/style_ccd.css"/>
     <title>Titulo CMD</title>
   </head>
   <body>
