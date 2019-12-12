@@ -6545,7 +6545,7 @@
     font-weight: normal;
     src: url('../blob/master/fonts/gotham.eot');
     src: url('../blob/master/fonts/gotham.eot?#iefix') format('embedded-opentype'), url('../blob/master/fonts/gotham.woff') format('woff'), url('../blob/master/fonts/gotham.ttf') format('truetype'), url('../blob/master/fonts/gotham.svg#Gotham') format('svg');
-  }
+  } 
   
   body {
     padding-top: 70px!important;
