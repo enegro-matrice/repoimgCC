@@ -1,0 +1,10 @@
+@media only print {
+    p {
+        margin-left:36px;
+    }
+}
+@media not print {
+    p {
+        margin-left:216px;
+    }
+}
