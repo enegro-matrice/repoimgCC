@@ -1,17 +1,4 @@
-        body {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: sans-serif;
-        }
-        
-        header {
-            display: flex;
-            justify-content: space-between;
-            margin-top: 20px;
-        }
-        
-        .container {
+       .container {
             width: 595px;
             margin-right: auto;
             margin-left: auto;
@@ -23,14 +10,6 @@
             margin-left: 50px;
         }
         
-        h1 {
-            font-size: 19px;
-        }
-        
-        h1 img {
-            width: 51px;
-            height: 82px;
-        }
         
         .texto-serie {
             margin: 0 0 0 20px;
@@ -76,12 +55,3 @@
             line-height: 19px;
         }
         
-        footer {
-            margin: 40px 20px 0 20px;
-            font-size: 13px;
-            line-height: 19px;
-        }
-        
-        p {
-            margin: 0;
-        }
