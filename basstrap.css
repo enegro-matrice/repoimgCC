@@ -6811,10 +6811,6 @@
   }
   
   @media (max-width: 480px) {
-    {
-      /* Remove padding above jumbotron */
-    
-    }
     body {
       padding-top: 50px;
     }
@@ -6824,10 +6820,7 @@
   ------------------------- */
   
   @media (min-width: 768px) and (max-width: 980px) {
-    {
-      /* Remove any padding from the body */
-    
-    }
+
     body {
       padding-top: 50px;
     }
@@ -6837,10 +6830,6 @@
   ------------------------- */
   
   @media (max-width: 767px) {
-    {
-      /* Remove any padding from the body */
-    
-    }
     body {
       padding-top: 50px;
     }
@@ -6860,13 +6849,6 @@
     padding: 10px 0;
     overflow: visible;
     background-color: #f0d400;
-    *background-color: #f0d400;
-    background-image: -o-linear-gradient(top, #ffe200, #f0d400);
-    background-image: linear-gradient(top, #ffe200, #f0d400);
-    background-image: -ms-linear-gradient(top, #ffe200, #f0d400);
-    background-image: -webkit-linear-gradient(top, #ffe200, #f0d400);
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffe200), to(#f0d400));
-    background-image: -moz-linear-gradient(top, #ffe200, #f0d400);
     background-repeat: repeat-x;
     border-color: #f0d400 #f0d400 #a39100;
     border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
