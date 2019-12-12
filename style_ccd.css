@@ -86,9 +86,6 @@
     font-family: sans-serif;
     font-weight: 100;
   }
-  .container {
-    position: absolute;
-  }
   table {
     width: 800px;
     border-collapse: collapse;
