@@ -1,8 +1,6 @@
   .contenedor {
     margin-right: auto;
     margin-left: auto;
-    /*border: 40px solid rgb(227,205,62);
-    text-align: center;*/
     background-image:url(https://raw.githubusercontent.com/enegro-matrice/repoimgCC/master/Pok%C3%A9mon.png);
   }
   .grid-item {
