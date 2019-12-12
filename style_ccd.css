@@ -80,10 +80,6 @@
     font-size: 14px;
   }
 
-  html,
-  body {
-    height: 100%;
-  }
   body {
     margin: 0;
     font-family: sans-serif;
