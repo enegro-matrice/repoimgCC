@@ -1,8 +1,4 @@
-  .contenedor {
-    margin-right: auto;
-    margin-left: auto;
-    background-image:url("https://raw.githubusercontent.com/enegro-matrice/repoimgCC/master/Pok%C3%A9mon.png");
-  }
+
   .grid-item {
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
@@ -13,6 +9,11 @@
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 10px;
+  }
+  .contenedor {
+    margin-right: auto;
+    margin-left: auto;
+    background-image:url("https://raw.githubusercontent.com/enegro-matrice/repoimgCC/master/Pok%C3%A9mon.png");
   }
   .header {
     width: 100%;
