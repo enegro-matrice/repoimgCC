@@ -1,10 +1,23 @@
   .contenedor {
     margin-right: auto;
     margin-left: auto;
-    border: 40px solid rgb(227,205,62);
+    /*border: 40px solid rgb(227,205,62);
+    text-align: center;*/
+    background-image:url('https://vignette.wikia.nocookie.net/eswikia/images/d/df/Pok%C3%A9mon.png/revision/latest?cb=20170308220152');
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
     text-align: center;
   }
-
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+  }
   .header {
     width: 100%;
     display: flex;
@@ -77,17 +90,4 @@
 
   .cargo {
     font-size: 14px;
-  }
-  .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-  }
-  .grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    background-color: #2196F3;
-    padding: 10px;
   }
