@@ -4820,19 +4820,7 @@
          -o-transition: none;
             transition: none;
   }
-  
-  .navbar-inverse .navbar-search .search-query:-moz-placeholder {
-    color: #cccccc;
-  }
-  
-  .navbar-inverse .navbar-search .search-query:-ms-input-placeholder {
-    color: #cccccc;
-  }
-  
-  .navbar-inverse .navbar-search .search-query::-webkit-input-placeholder {
-    color: #cccccc;
-  }
-  
+    
   .navbar-inverse .navbar-search .search-query:focus,
   .navbar-inverse .navbar-search .search-query.focused {
     padding: 5px 15px;
