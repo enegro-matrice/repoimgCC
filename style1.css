@@ -1,0 +1,85 @@
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        
+        header {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        
+        .container {
+            width: 595px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        
+        .rep-argentina {
+            margin-left: 50px;
+        }
+        
+        h1 {
+            font-size: 19px;
+        }
+        
+        h1 img {
+            width: 51px;
+            height: 82px;
+        }
+        
+        .texto-serie {
+            margin: 0 0 0 20px;
+            font-size: 13px;
+        }
+        
+        .anio {
+            margin: 0 0 0 20px;
+            font-size: 23px;
+        }
+        
+        .numero {
+            margin: 0 20px 0 0;
+            font-size: 19px;
+        }
+        
+        .ministerio {
+            text-align: center;
+        }
+        
+        .ley-gob {
+            text-align: center;
+        }
+        
+        .ley {
+            margin: 0;
+            font-size: 13px;
+        }
+        
+        .gob {
+            margin: 0 0 20px 0;
+            font-size: 16px;
+        }
+        
+        .ministerio {
+            margin: 0;
+            font-size: 14px;
+        }
+        
+        .texto {
+            margin: 25px 20px 0 20px;
+            font-size: 13px;
+            line-height: 19px;
+        }
+        
+        footer {
+            margin: 40px 20px 0 20px;
+            font-size: 13px;
+            line-height: 19px;
+        }
+        
+        p {
+            margin: 0;
+        }
