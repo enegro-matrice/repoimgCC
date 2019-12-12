@@ -4,96 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css"
+        href="https://raw.githubusercontent.com/maximilianoPizarro/sugpa/master/WebContent/bastrap3/bastrap.css" />
     <title>Titulo CMD</title>
-    <style>
-      * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-        font-family: sans-serif;
-      }
-
-      .contenedor {
-        margin-right: auto;
-        margin-left: auto;
-        border: 40px solid rgb(227,205,62);
-        text-align: center;
-      }
-
-      .header {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-      }
-
-      .logo-ccd {
-        margin-top: 10px;
-        margin-left: 10px;
-      }
-
-      .logo-ba {
-        margin-top: 35px;
-        margin-left: -15px;
-      }
-
-      .logo-direccion {
-        margin-top: 10px;
-        margin-right: 10px;
-      }
-
-      h1 {
-        font-size: 14px;
-        font-weight: 400;
-      }
-
-      .ministerio {
-        font-size: 14px;
-        font-weight: 600;
-        margin-bottom: 30px;
-      }
-
-      .contenedor-texto {
-        width: 650px;
-        text-align: center;
-        margin-right: auto;
-        margin-left: auto;
-      }
-
-      .texto {
-        font-size: 20px;
-        font-weight: 100;
-        line-height: 42px;
-      }
-
-      .nombre-estudiante {
-        font-weight: 600;
-        font-size: 24px;
-        margin-bottom: 5px;
-      }
-
-      .texto-secundario {
-        font-size: 20px;
-        font-weight: 100;
-        line-height: 28px;
-        margin-bottom: 40px;
-      }
-
-      .footer {
-        width: 650px;
-        margin: auto;
-        display: flex;
-        justify-content: space-between;
-      }
-
-      .nombre {
-        font-size: 14px;
-        font-weight: 600;
-      }
-
-      .cargo {
-        font-size: 14px;
-      }
-    </style>
   </head>
   <body>
     <table class="contenedor" style="width: 100%;height: 100%">
