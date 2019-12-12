@@ -6543,8 +6543,8 @@
     font-family: 'Gotham';
     font-style: normal;
     font-weight: normal;
-    src: url('../fonts/tree/master/gotham.eot');
-    src: url('../fonts/tree/master/gotham.eot?#iefix') format('embedded-opentype'), url('../fonts/tree/master/gotham.woff') format('woff'), url('../fonts/tree/master/gotham.ttf') format('truetype'), url('../fonts/gotham.svg#Gotham') format('svg');
+    src: url('../tree/master/fonts/gotham.eot');
+    src: url('../tree/master/fonts/gotham.eot?#iefix') format('embedded-opentype'), url('../tree/master/fonts/gotham.woff') format('woff'), url('../tree/master/fonts/gotham.ttf') format('truetype'), url('../tree/master/fonts/gotham.svg#Gotham') format('svg');
   }
   
   body {
