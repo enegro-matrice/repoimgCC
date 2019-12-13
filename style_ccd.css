@@ -82,22 +82,15 @@
   }
 
   body {
-    width: 650px;
+    width: 800px;
     margin-right: auto;
     margin-left: auto;
     margin: 0;
     font-family: sans-serif;
     font-weight: 100;
   }
-  table {
-    width: 700px;
-    border-collapse: collapse;
-  }
-  th,
-  td {
+  th,td {
     padding: 15px;
-    background-color: rgba(0, 0, 0, 0.2);
-    color: rgb(0, 0, 0);
   }
   th {
     text-align: left;

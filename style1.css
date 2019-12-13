@@ -1,49 +1,111 @@
-      
-        .rep-argentina {
-            margin-left: 50px;
-        }
-        
-        
-        .texto-serie {
-            margin: 0 0 0 20px;
-            font-size: 13px;
-        }
-        
-        .anio {
-            margin: 0 0 0 20px;
-            font-size: 23px;
-        }
-        
-        .numero {
-            margin: 0 20px 0 0;
-            font-size: 19px;
-        }
-        
-        .ministerio {
-            text-align: center;
-        }
-        
-        .ley-gob {
-            text-align: center;
-        }
-        
-        .ley {
-            margin: 0;
-            font-size: 13px;
-        }
-        
-        .gob {
-            margin: 0 0 20px 0;
-            font-size: 16px;
-        }
-        
-        .ministerio {
-            margin: 0;
-            font-size: 14px;
-        }
-        
-        .texto {
-            margin: 25px 20px 0 20px;
-            font-size: 13px;
-            line-height: 19px;
-        }
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo-ccd {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .logo-ba {
+    width: 40%;
+    height: 10%;
+    padding-top: 15px;
+    margin-top: 35px;
+    margin-left: -15px;
+  }
+
+  .logo-direccion {
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+
+  h1 {
+    font-size: 14px;
+    font-weight: 400;
+    box-shadow: 0px 0px 9px rgba(150, 150, 150, 1);
+  }
+
+  .ministerio {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+
+  .contenedor-texto {
+    width: 650px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .texto {
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 42px;
+  }
+  .titulo_ccd.nombre{
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 42px;
+  }
+
+  .nombre-estudiante {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+
+  .texto-secundario {
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 28px;
+    margin-bottom: 40px;
+  }
+
+  .footer {
+
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nombre {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .cargo {
+    font-size: 14px;
+  }
+
+  body {
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 100;
+  }
+  table {
+    width: 700px;
+    border-collapse: collapse;
+  }
+  th,
+  td {
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: rgb(0, 0, 0);
+  }
+  th {
+    text-align: left;
+  }
+  tbody td {
+    position: relative;
+  }
+  p {
+    color: black;
+  }
+
