@@ -50,6 +50,11 @@
     font-weight: 100;
     line-height: 42px;
   }
+  .titulo_ccd.nombre{
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 42px;
+  }
 
   .nombre-estudiante {
     font-weight: 600;
