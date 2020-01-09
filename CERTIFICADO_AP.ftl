@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Titulo AP</title>
     <style>
       * {
-        box-sizing: border-box;
         margin: 0;
         padding: 0;
+  
         font-family: sans-serif;
       }
 
       .contenedor {
-        margin-right: auto;
-        margin-left: auto;
-        
+        margin-top: 0px;
+        margin-left: 20px;
         text-align: center;
       }
 
@@ -96,7 +95,7 @@
     </style>
   </head>
   <body>
-    <table class="contenedor" style="width: 100%;height: 100%; background-image: url(https://raw.githubusercontent.com/enegro-matrice/repoimgCC/master/marco2.jpg);background-repeat: round; background-size: cover; ">
+    <table class="contenedor" style="width: 100%;height: 100%; background-image: url(${path}marco2.png);background-repeat: no-repeat; ">
       <tr class="header">
             <td align="left" style="width: 30%;height: 10%;">
                 <div class="logo-ccd">
