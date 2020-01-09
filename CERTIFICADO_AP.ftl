@@ -96,7 +96,7 @@
     </style>
   </head>
   <body>
-    <table class="contenedor" style="width: 100%;height: 100%">
+    <table class="contenedor" style="width: 100%;height: 100%; background-image: url(https://raw.githubusercontent.com/enegro-matrice/repoimgCC/master/Picachu.jpg);background-repeat: no-repeat; background-size: contain ">
       <tr class="header">
             <td align="left" style="width: 30%;height: 10%;">
                 <div class="logo-ccd">
