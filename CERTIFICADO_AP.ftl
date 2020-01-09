@@ -16,7 +16,7 @@
       .contenedor {
         margin-right: auto;
         margin-left: auto;
-        border: 40px solid rgb(62,73,228);
+        
         text-align: center;
       }
 
@@ -96,7 +96,7 @@
     </style>
   </head>
   <body>
-    <table class="contenedor" style="width: 100%;height: 100%; background-image: url(https://raw.githubusercontent.com/enegro-matrice/repoimgCC/master/Pokemon.png);background-repeat: round; background-size: cover; ">
+    <table class="contenedor" style="width: 100%;height: 100%; background-image: url(https://raw.githubusercontent.com/enegro-matrice/repoimgCC/master/marco2.jpg);background-repeat: round; background-size: cover; ">
       <tr class="header">
             <td align="left" style="width: 30%;height: 10%;">
                 <div class="logo-ccd">
