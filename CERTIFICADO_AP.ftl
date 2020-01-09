@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Titulo AP</title>
@@ -96,7 +96,7 @@
     </style>
   </head>
   <body>
-    <table class="contenedor" style="width: 100%;height: 100%; background-image: url(https://raw.githubusercontent.com/enegro-matrice/repoimgCC/master/Picachu.jpg);background-repeat: no-repeat; background-size: contain ">
+    <table class="contenedor" style="width: 100%;height: 100%; background-image: url(https://raw.githubusercontent.com/enegro-matrice/repoimgCC/master/Pokemon.png);background-repeat: round; background-size: cover; ">
       <tr class="header">
             <td align="left" style="width: 30%;height: 10%;">
                 <div class="logo-ccd">
@@ -112,7 +112,12 @@
             </td>
             <td align="right" style="width: 30%;height: 10%;">   
                 <div class="logo-direccion">
-                  <img src="${path}LOGO_Aprende_Programando.png" alt="Logo aprende progrmanado"/>
+                <#if ( titulo_ap.tipoDiploma == "3.0")>
+                   <img src="${path}LOGO_Aprende_Programando.png" alt="Logo aprende progrmanado"/>
+                <#elseif ( titulo_ap.tipoDiploma == "2.0")>
+                   <img src="${path}a_logo.png" alt="Logo aprende progrmanado"/>
+                </#if>
+                 
                 </div>
             </td>
       </tr>
