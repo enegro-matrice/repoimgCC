@@ -115,11 +115,14 @@
             </td>
             <td align="right" style="width: 30%;height: 10%;">   
                 <div class="logo-direccion">
-                <#if ( titulo_ap.tipoDiploma == "3.0")>
-                   <img src="${path}LOGO_Aprende_Programando.png" alt="Logo aprende progrmanado"/>
-                <#elseif ( titulo_ap.tipoDiploma == "2.0")>
-                   <img src="${path}a_logo.png" alt="Logo aprende progrmanado"/>
+                <#if (titulo_ap??)>
+                    <#if ( titulo_ap.tipoDiploma == "3.0")>
+                      <img src="${path}LOGO_Aprende_Programando.png" alt="Logo aprende progrmanado"/>
+                    <#elseif ( titulo_ap.tipoDiploma == "2.0")>
+                      <img src="${path}a_logo.png" alt="Logo aprende progrmanado"/>
                 </#if>
+                </#if>
+
                  
                 </div>
             </td>
@@ -131,13 +134,13 @@
                   El Ministerio de Educación e Innovación certifica que 
                 </p>
                 <p class="nombre-estudiante">
-                  ${titulo_ap.nombre}
+                  {titulo_ap.nombre}
                 </p>
                 <p class="texto-secundario">
-                  ha completado el curso de <strong>${titulo_ap.curso}</strong> en el marco de Aprendé Programando ${titulo_ap.tipoDiploma}.
+                  ha completado el curso de <strong>{titulo_ap.curso}</strong> en el marco de Aprendé Programando {titulo_ap.tipoDiploma}.
                 </p>
                  <p class="texto-secundario">
-                  Ciudad Autónoma de Buenos Aires, ${fecha_emision}.
+                  Ciudad Autónoma de Buenos Aires, {fecha_emision}.
                 </p>
               </div>
           </td>          
